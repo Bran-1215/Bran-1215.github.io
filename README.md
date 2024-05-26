@@ -1,3 +1,11 @@
+# Github Page for CMPM 120
+
+This Github page contains links to my gallery shooter and platformer projects.
+
+**Koog Adventures Platformer**
+
+*work in progress
+
 **Duck Fight Gallery Shooter**
 
 A gallery shooter where ducks fight.
