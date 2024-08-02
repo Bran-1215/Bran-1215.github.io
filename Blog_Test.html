@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platformer Design</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            text-align: center;
+            margin: 0;
+            padding: 10px 0;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section-title {
+            font-weight: bold;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .content {
+            margin-left: 20px;
+        }
+        .image {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Platformer Design</h1>
+
+    <div class="section">
+        <div class="section-title">Game Title:</div>
+        <div class="content">Go Go Koog Time</div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Level Theme:</div>
+        <div class="content">Koog’s Tree</div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Player Movement:</div>
+        <div class="content">
+            <p>Acceleration: 20</p>
+            <p>Max Speed: 8</p>
+            <p>Deceleration: 60</p>
+            <p>Jump Height: 5</p>
+            <p>Down Gravity: 3</p>
+            <p>Duration: 3</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Visual Asset Packs:</div>
+        <div class="content">
+            <p>I plan on using the “Pixel Platformer” and “Pixel Platformer Farm Expansion”. For the player avatar, I would like to use the green character from “Pixel Platformer”. For particle effects, I plan on using “Particle Pack”. All these asset packs will be taken from Kenney’s asset library.</p>
+        </div>
+    </div>
+
+    <img src="Screenshot_63.png" alt="Level Design 1" class="image">
+    <img src="Screenshot_64.png" alt="Level Design 2" class="image">
+
+    <div class="section">
+        <div class="section-title">Audio:</div>
+        <div class="content">
+            <p>Actions such as jumping, collecting coins, colliding with interactables, and losing health will use audio from Kenney’s “Interface Sounds” pack.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Collectibles:</div>
+        <div class="content">
+            <p>The player will be able to collect gems from “Pixel Platformer” to gain 20 points each. A key will also be collectable in order to open a door to end the level.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">End of Level Condition:</div>
+        <div class="content">
+            <p>The player must collect a coin from the third screen and return it to a locked door from the beginning of the map (first screen).</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Camera:</div>
+        <div class="content">
+            <p>The camera will be static between the three levels, changing whenever the player reaches the edge of the map which will transition to the adjacent map.</p>
+        </div>
+    </div>
+</body>
+</html>
